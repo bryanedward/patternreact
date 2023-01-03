@@ -1,0 +1,27 @@
+.bg-dark{
+    background-color: rgb(36, 36, 36);
+}
+
+.text-dark{
+    color: aliceblue ;
+}
+
+.text-bold{
+    font-weight: bolder;    
+}
+
+.img-dark{
+    padding: .7rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+
+.button-dark button{
+    color: rebeccapurple;
+}
+
+.shopping-cart-dark{
+    position: fixed;
+    top: 0;
+    right: 0;
+}
