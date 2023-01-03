@@ -19,3 +19,9 @@
 .button-dark button{
     color: rebeccapurple;
 }
+
+.shopping-cart-dark{
+    position: fixed;
+    top: 0;
+    right: 0;
+}

@@ -4,6 +4,7 @@ import { Props as PropsImage } from "../components/ProductImage";
 import { Props as PropsTitle } from "../components/ProductTtitle";
 
 export interface Product {
+  id: number
   title: string;
   img: string;
 }
@@ -19,4 +20,10 @@ export interface ProductsCardHOC {
   Buttons: ( Props: PropsButton) => JSX.Element;
   Image: ( Props: PropsImage) => JSX.Element;
   Title: (Props: PropsTitle) => JSX.Element;
+}
+
+
+export interface onChangeArgs {
+  product: Product
+  counter: number
 }
